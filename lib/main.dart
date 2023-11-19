@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app/Screens/loginSignUP.dart';
 
 import 'Screens/login.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         // useMaterial3: true,
       ),
-      home: Login(),
+      //home: Login(),
+      home: LoginSignup(),
     );
   }
 }

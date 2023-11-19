@@ -29,7 +29,7 @@ class _BuildRememberForgetState extends State<BuildRememberForget> {
           ],
         ),
         TextButton(
-            onPressed: () {}, child: GreyText(text:"I forgot my password"))
+            onPressed: () {}, child: Text("Forgot Password",style: TextStyle(color: Colors.deepPurple),))
       ],
     );
   }

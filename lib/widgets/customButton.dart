@@ -17,7 +17,8 @@ class CustomButton extends StatelessWidget {
         shadowColor: Theme.of(context).primaryColor,
         minimumSize: const Size.fromHeight(60),
       ),
-      child:  Text(text),
+      child:  Text(text,      style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
+      ),
     );
   }
 }

@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
         backgroundColor: Colors.transparent,
         body: Stack(
           children: [
-            Positioned(top: 20,child:buildTop(context) ),
+            Positioned(top: 70,child:buildTop(context) ),
             Positioned(bottom: 0,child: buildBottom(context))
           ],
         ),
@@ -48,8 +48,7 @@ Widget buildTop(context){
     width: MediaQuery.of(context).size.width,
     child: Column(
       children: [
-        Image.asset("assets/images/shoppingCover.png",
-          ),
+        Image.asset("assets/images/shoppingCover.png",),
         // const Text(
         //   "Let's Shopping",
         //   style: TextStyle(

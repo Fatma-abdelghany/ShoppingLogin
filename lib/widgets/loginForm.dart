@@ -52,8 +52,8 @@ class LoginForm extends StatelessWidget {
              const Text('Does not have account?'),
             TextButton(
               child: const Text(
-                'Sign in',
-                style: TextStyle(fontSize: 20),
+                'Sign up',
+                style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
               ),
               onPressed: () {
                 //signup screen
